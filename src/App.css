@@ -1,0 +1,45 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+.App {
+  position:relative;
+  top:50px;
+
+}
+
+.search-container{
+  display:flex;
+  justify-content:center;
+}
+.container{
+  width:100%;
+  max-width:600px;
+  margin:auto;
+}
+.search-input{
+  width:80%;
+  padding:0.7rem;
+  border:2px solid rgba(0,0,0,0.2);
+  box-shadow:10px 0px 10px rgba(0,0,0,0.2)
+}
+.search-button{
+  border:2px solid rgba(0,0,0,0.2);
+  background-color:green;
+  width:20%;
+  color:#ffffff;
+
+}
+.dropdown{
+  width:100%;
+  box-shadow: 2px 4px 5px 3px rgb(0 0 0 / 20%);
+  border: 1px solid rgba(0,0,0,.2);
+}
+.dropdown-row{
+  padding: 0.5rem 1rem;
+  cursor:pointer;
+}
+
+
+
